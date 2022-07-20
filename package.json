@@ -1,0 +1,33 @@
+{
+  "name": "node-red-contrib-google-play-data-importer",
+  "version": "1.0.0",
+  "description": "To collect app data from the Google Play store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vovajr11/node-red-contrib-google-play-data-importer.git"
+  },
+  "keywords": [
+    "google",
+    "play",
+    "scraper",
+    "node-red"
+  ],
+  "author": "vovajr11",
+  "license": "ISC",
+  "node-red" : {
+    "nodes": {
+        "app": "app.js"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/vovajr11/node-red-contrib-google-play-data-importer/issues"
+  },
+  "homepage": "https://github.com/vovajr11/node-red-contrib-google-play-data-importer#readme",
+  "dependencies": {
+    "google-play-scraper": "^9.0.2"
+  }
+}

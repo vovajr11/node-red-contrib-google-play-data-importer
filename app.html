@@ -1,0 +1,28 @@
+<script type="text/javascript">
+  RED.nodes.registerType("Google Play App", {
+    category: "function",
+    color: "#c0deed",
+    defaults: {
+      appId: {
+        value: "",
+      },
+    },
+    inputs: 1,
+    outputs: 1,
+    icon: "logo.png",
+    label: function () {
+      return this.name || "Google Play App";
+    },
+  });
+</script>
+
+<script type="text/x-red" data-template-name="Google Play App">
+  <div class="form-row">
+      <label for="node-input-appId"><i class="icon-tag"></i>appId</label>
+      <input type="text" id="node-input-appId" placeholder="appId">
+  </div>
+</script>
+
+<script type="text/x-red" data-help-name="Google Play App">
+    <p>Get information about the app from the Google Play Store.</p>
+</script>
